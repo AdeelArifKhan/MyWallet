@@ -1,30 +1,22 @@
 # MyWallet
-MyWallet – Smart Contract Wallet on Algorand
-Slogen:
-Secure. Scalable. Decentralized.
-A lightweight on-chain wallet solution built with AlgoPy, currently in its testnet phase.
 
-Description:
-MyWallet is a decentralized smart contract wallet developed using the ARC4 standard on the Algorand blockchain. It offers users the ability to deposit and withdraw funds with personalized metadata, securely stored using box storage. Each deposit is tagged with the user's input (such as their GitHub handle or name) and associated with their wallet address.
+Welcome to your new AlgoKit project!
 
-This contract is designed to be simple, efficient, and extendable for future real-world applications like DeFi gateways, token vaults, or identity-based asset tracking.
+This is your workspace root. A `workspace` in AlgoKit is an orchestrated collection of standalone projects (backends, smart contracts, frontend apps and etc).
 
-Project Status:
-✅ Currently Deployed on Testnet
-✅ Initial features live: deposit() and withdraw()
-🔜 Future updates: asset transfers, payment routing, and user dashboard integration
+By default, `projects_root_path` parameter is set to `projects`. Which instructs AlgoKit CLI to create a new directory under `projects` directory when new project is instantiated via `algokit init` at the root of the workspace.
 
-How It Works:
-Deposit
-The user calls deposit(name) with their name or identifier.
-This data is stored on-chain using box storage, uniquely tied to the sender’s wallet address.
+## Getting Started
 
-Withdraw
-The user calls withdraw(name) to initiate a withdrawal request.
-The contract confirms the request with a personalized message.
+To get started refer to `README.md` files in respective sub-projects in the `projects` directory.
 
-Launch on testnet
-https://lora.algokit.io/testnet/application/740574648
+To learn more about algokit, visit [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md).
 
-ID is 740574648
+### GitHub Codespaces
 
+To get started execute:
+
+1. `algokit generate devcontainer` - invoking this command from the root of this repository will create a `devcontainer.json` file with all the configuration needed to run this project in a GitHub codespace. [Run the repository inside a codespace](https://docs.github.com/en/codespaces/getting-started/quickstart) to get started.
+2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
+
+Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
