@@ -21,7 +21,7 @@ To get started execute:
 
 Powered by [Copier templates](https://copier.readthedocs.io/en/stable/)
 
-Application and Transaction Group
+Application Call and Transaction Group
 ![image](https://github.com/user-attachments/assets/976415c9-539e-4849-8ab0-37fa7f750dcf)
 
 Send Result
