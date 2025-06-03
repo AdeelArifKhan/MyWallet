@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7eaa23ab-bd28-4d7c-85c6-b803fc03e3a0)# MyWallet
+# MyWallet
 
 Welcome to your new AlgoKit project!
 
